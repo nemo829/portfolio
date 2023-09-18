@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW PRJ</title>
+
+    <!--font awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bmwstyle.css">
+
+    <!-- Boot Strap 3 link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--제이쿼리 cdn----------------------------------------------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+
+    $(document).ready(function(){
+        $("#m_list ul li:nth-child(1)").click(function(){
+            $(this).next("#m_list ul li:nth-child(2)").slideToggle("slow");  //.next()는 현 태그의 바로 다음의 형제 태그  
+        });      
+    });
+    </script>
+
+
+</head>
+
+    
+
+    <!--header start==============================================================================-->
+    <div id="header"  class="container">
+        <div id="nav">
+            <div id="logo"></div>
+            <div id="nav1">
+                <ul>
+                    <li><div><a>모델</a></div></li>
+                    <li><div><a>전기차</a></div></li>
+                    <li><div><a>내 차량 만들기</a></div></li>
+                    <li><div><a>구매하기</a></div></li>
+                    <li><div><a>더 알아보기</a></div></li>
+                    <li><div><a>BMW 드라이빙 센터</a></div></li>
+                </ul>
+            </div>
+            <div id="icon">
+                <ul>
+                    <li><div class="profil"><a><i class="fa fa-user fa-lg" aria-hidden="true" ></i></a></div></li>
+                    <li><div class="cart"><a><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></div></li>
+                    <li><div class="pointer"><a><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a></div></li>
+                    <li><div class="search"><a><i class="fa fa-search fa-lg" aria-hidden="true"></i></a></div></li>
+                </ul>
+            </div>
+            <div class="text1">
+                <p>Sheer Driving Pleasure</p>
+            </div>
+        </div>
+        <div id="main" class="container">
+            <div class="text2">
+                <p>100% 순수전기</p>
+                <p>BMW 전기차 월 55만원 부터.</p>
+                <p>*THE iX3, BMW i 스마트 할부 기준.</p>
+            </div>
+            <div class="btn">
+                <div class="text"><p>자세히 보기</p></div>
+                <div class="text"><p>온라인 예약</p></div>
+            </div>
+        </div>
+    </div>
+    <!--header end==============================================================================-->
+    
+    
+
+    <!--Favorites start==========================================================================-->
+    <div id="favorites" class="container">
+        <div>
+            <p>즐겨찾기</p>
+            <h1>지금 바로 BMW를 경험해보세요.</h1>
+        </div>
+        <div id=fmain class="container">
+            <div id=fmain1 class="col-sm-4">
+                <div class="container"></div>
+                <p>시승신청</p>
+                <div class="fmb1">바로가기</div>
+            </div>
+            <div id=fmain2 class="col-sm-4">
+                <div class="container"></div>
+                <p>내 차량 만들기</p>
+                <div class="fmb1">바로가기</div>
+            </div>
+            <div id=fmain3 class="col-sm-4">
+                <div class="container"></div>
+                <p>BMW 샵 온라인</p>
+                <div class="fmb1">바로가기</div>
+            </div>
+        </div>
+    </div>
+    <!--Favorites end============================================================================-->
+
+
+    <!--buy1 start===============================================================================-->
+    <div id="buy1" class="container">
+        <div class="buy1p"></div>
+        <h1>THE XM</h1>
+        <div class="buy1btn">구매 혜택</div>
+        <div class="buy2btn">모델 정보</div>
+    </div>
+
+    <!--buy1 end=================================================================================-->
+
+
+
+
+    <!--buy2 start===============================================================================-->
+    <div id="buy2" class="container">
+        <div class="buy2txt">
+            <h1>THE iX3</h1>
+            <h2>월 55만원 부터, BMWi스마트 할부.</h2>
+        </div>
+        <div class="buy1btn">모델정보</div>
+        <div class="buy2btn">BMW 전기차 프로모션</div>
+    </div>
+
+    <!--buy2 end=================================================================================-->
+
+
+    <!--buy3 start===============================================================================-->
+    <div id="line" class="container-fluid">
+        <div id="buy3" class="container">
+            <div id="buy31" class="col-sm-6">
+                <div></div>
+            </div>
+            <div id="buy32" class="col-sm-6">
+                <div class="buy321">
+                    <p>구매하기</p>
+                    <h1>BMW 구매 정보.</h1>
+                    <P1>나에게 맞는 금융 프로모션을 확인하고 부담 없이 스마트하게 BMW를 구매해보세요.</P1>
+                    <div>BMW 금융 프로모션</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--buy3 end=================================================================================-->
+
+
+
+
+    <div id="groupfooter" class="container-fluid">
+        <!--footer1 start============================================================================-->
+        <div id="footer1" class="container">
+            <div id="list">
+                <div class="col-sm-3">
+                    <ul>
+                        <li>BMW 그룹</li>
+                        <li><a href="#">기업소개</a></li>
+                        <li><a href="#">인재채용</a></li>
+                        <li><a href="#">BMW 드라이빙 센터</a></li>
+                        <li><a href="#">BMW 모토라드 코리아</a></li>
+                        <li><a href="#">BMW 코리아 미래재단</a></li>
+                        <li><a href="#">BMW 콘택트</a></li>
+                        <li><a href="#">BMW 파이낸셜 서비스</a></li>
+                        <li><a href="#">BMW.com</a></li>
+                        <li><a href="#">MINI 코리아</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul>
+                        <li>법률 약관 정보</li>
+                        <li><a href="#">서비스케어 플러스 이용약관</a></li>
+                        <li><a href="#">영상정보처리기기 운영.관리 방침</a></li>
+                        <li><a href="#">외부감사인 변경선임 공고</a></li>
+                        <li><a href="#">워런티 츨러스 프리미엄 이용약관</a></li>
+                        <li><a href="#">커넥티드 드라이브 '이용약관'개정 안내</a></li>
+                        <li><a href="#">커넥티드 드라이브 이용약관</a></li>
+                        <li><a href="#">BMW 코리아 한국형 레몬법 적용</a></li>
+                        <li><a href="#">BMW 리콜 대상 차량 조회</a></li>
+                        <li><a href="#">BMW Vantage 앱 이용약관</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul>
+                        <li>BMW 공식 채널</li>
+                        <li><a href="#">BMW 네이버 포스트</a></li>
+                        <li><a href="#">BMW 인스타그램</a></li>
+                        <li><a href="#">BMW 유튜브</a></li>
+                        <li><a href="#">BMW 코리아 카카오톡 채널</a></li>
+                        <li><a href="#">BMW 페이스북</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul>
+                        <li>사업자등록정보</li>
+                        <li><a href="#">사업자등록번호 : 211-86-08983</a></li>
+                        <li><a href="#">통신판매업신고번호 : 2014-서울중구-0829</a></li>
+                        <li><a href="#">대표이사 : 한상윤</a></li>
+                        <li><a href="#">주소 : 서울특별시 중구 퇴계로 100</a></li>
+                        <li><a href="#">대표전화 : 080-700-8000</a></li>
+                        <li><a href="#">이메일 : bmw@bmw.co.kr</a></li>
+                        <li><a href="#">사업자등록정보확인</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--footer1 end==============================================================================-->
+
+        <!--footer2 start============================================================================-->
+        <div id="footer2" class="container">
+            <div>
+                <ul class="footer21">
+                    <li><a>개인정보 처리방침</a></li>
+                    <li>|</li>
+                    <li><a>개인정보 처리방침 변경에 대한 안내</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="footer22">
+                    <li><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+        <!--footer2 end==============================================================================-->
+
+
+
+
+    <!--footer3 start============================================================================-->
+    <div id="footer3" class="container">
+        
+        <div>
+            © BMW Korea 2023
+        </div>
+        <div>
+            <ul>
+                <li>법적고지</li>
+                <li>컨택트</li>
+                <li>쿠키정책</li>
+            </ul>
+        </div>
+        
+    </div>
+    <!--footer3 end==============================================================================--> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--==============================================================================-->
+        <!--PHONE TYPE-->
+    <!--==============================================================================--> 
+  
+
+
+
+
+
+    <!--m_header start============================================================================-->
+    <div id="m_header" claa="container">
+         <div id="m_mainimage"  class="container-fluid">
+        </div>
+
+        <div id="m_header_menu">
+            <div id="m_logo"></div>
+            <div id="m_menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div id="m_header_text">
+            <p>100% 순수전기</p>
+            <p>BMW 전기차 월 55만원 부터.</p>
+            <P>*THE iX3, BMWi 스마트 할부 기준.</P>
+        </div>
+     
+        <div id="m_header_btn">
+            <div id="m_header_btn1">자세히보기</div>
+            <div id="m_header_btn2">온라인 예약하기</div>
+        </div>
+    </div>
+    <!--m_header end==============================================================================-->
+
+
+
+    <!--m_favorites start==============================================================================-->
+    <div id="m_favorites" claa="container">
+        <div id="m_favorites_text" claa="container">
+            <p>즐겨찾기</p>
+            <p>지금 바로 BMW를</p>
+            <P>경험해보세요.</P>
+        </div>
+        <div id="m_favorites_1" claa="container">
+            <div id="m_favorites_img1"></div>
+            <div id="m_favorites_text1">시승신청</div>
+            <div id="m_favorites_btn1">바로가기</div>
+        </div>
+        <div id="m_favorites_2" claa="container">
+            <div id="m_favorites_img2"></div>
+            <div id="m_favorites_text2">내 차량 만들기</div>
+            <div id="m_favorites_btn2">바로가기</div>
+        </div>
+        <div id="m_favorites_3" claa="container">
+            <div id="m_favorites_img3"></div>
+            <div id="m_favorites_text3">BMW샵 온라인</div>
+            <div id="m_favorites_btn3">바로가기</div>
+        </div>
+    </div>
+    <!--m_favorites end==============================================================================-->
+
+
+
+    
+    <!--buy1 start==543=================================================================================-->
+    <div id="m_buy1">
+        <div id="m_buy1_img1"></div>
+        <div id="m_buy1_text1"><p>THE XM</p></div>
+        <div id="m_buy1_box1">
+            <div id="m_buy1_btn1">구매 혜택</div>
+            <div id="m_buy1_btn2">모델 정보</div>
+        </div>
+    </div>
+    <!--buy1 end=====================================================================================-->
+
+
+
+    <!--buy2 start=====================================================================================-->
+    <div id="m_buy2">
+        <div id="m_buy2_img2"></div>
+        <div id="m_buy2_text2">
+            <p>THE iX3</p>
+            <p>월 55만우너 부터, BMWi스마트 할부.</p>
+        </div>
+        <div id="m_buy2_box2">
+            <div id="m_buy2_btn1">모델 정보</div>
+            <div id="m_buy2_btn2">BMW 전기차 프로모션</div>
+        </div>
+    </div>
+    <!--buy2 end=====================================================================================-->
+
+
+
+
+
+    <!--m_buy3 start=====================================================================================-->
+    
+    <div id="m_buy3">
+        <div id="m_buy3_img3"></div>
+        <div id="m_buy3_text3">
+            <P>구매하기</P>
+            <P>BMW 구매 정보.</P>
+            <P>나에게 맞는 금융 프로모션을 확인하고</P>
+            <P>부담 없이 스마트하게 BMW를 구매해보세요.</P>
+        </div>
+        <div id="m_buy3_btn1">BMW 금융 프로모션</div>
+    </div>
+    
+    <!--m_buy3 end=====================================================================================-->
+
+
+
+
+    <!--m_footergroup start=====================================================================================-->
+    <div id="m_footergroup">  
+
+        <div id="m_list">
+            <ul>
+                <li>
+                    <a>
+                        <p>BMW그룹</p>
+                        <div id="list_icon">^</div>
+                    </a>
+                </li>
+                <li >
+                    <ul>
+                        <li><a>기업소개</a></li>
+                        <li><a>인재채용</a></li>
+                        <li><a>BMW 드라이빙 센터</a></li>
+                        <li><a>BMW 모토라드 코리아</a></li>
+                        <li><a>BMW 코리아 미래재단</a></li>
+                        <li><a>BMW 콘택트</a></li>
+                        <li><a>BMW 파이낸셜 서비스</a></li>
+                        <li><a>BMW.com</a></li>
+                        <li><a>MINI코리아</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>
+                        <p>법률 약관 정보</p>
+                        <div id="list_icon">^</div>
+                    </a>
+                </li>
+                <li>
+                    <ul>
+                        <li><a>서비스케어 플러스 이용약관</a></li>
+                        <li><a>영상정보처리기기 운영.관리 방침</a></li>
+                        <li><a>외부감사인 변경선임 공고</a></li>
+                        <li><a>워런티 플러스 프리미엄 이용약관</a></li>
+                        <li><a>커넥티드 드라이브 '이용약관'개정 안내</a></li>
+                        <li><a>커넥티드 드라이브 이용약관</a></li>
+                        <li><a>BMW 코리아 한국형 레몬법 적용</a></li>
+                        <li><a>BMW 리콜 대상 차량 조회</a></li>
+                        <li><a>BMW Vantage 앱 이용약관</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>
+                        <p>BMW 공식 채널</p>
+                        <div id="list_icon">^</div>
+                    </a>
+                </li>
+                <li class="m_list2">
+                    <ul>
+                        <li><a>BMW 네이버 포스트</a></li>
+                        <li><a>BMW 인스타그램</a></li>
+                        <li><a>BMW 유튜브</a></li>
+                        <li><a>BMW 코리아 카카오톡 체널</a></li>
+                        <li><a>BMW 페이스북</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>
+                        <p>사업자등록정보</p>
+                        <div id="list_icon">^</div>
+                    </a>
+                </li>
+                <li class="m_list2">
+                    <ul>
+                        <li><a>사업자등록번호 : 211-86-08983</a></li>
+                        <li><a>통신판매업신고번호 : 2014-서울중구-0829</a></li>
+                        <li><a>대표이사 : 한상윤</a></li>
+                        <li><a>주소 : 서울특별시 중구 퇴계로 100</a></li>
+                        <li><a>대표전화 : 080-700-8000</a></li>
+                        <li><a>이메일 : bmw@bmw.co.kr</a></li>
+                        <li><a>사업자등록정보확인</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        <div id="m_footergroup_text">
+            <p><a>개인정보 처리 방침</a></p> 
+            <p>|</p>
+            <p><a>개인정보 처리방침 변경에 대한 안내</a></p>
+        </div>
+
+
+        <div id="m_footergroup_icon">
+            <ul>
+                <li><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></li>
+                <li><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></li>
+                <li><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+
+    </div>
+    <!--m_footergroup end=====================================================================================-->
+
+
+
+
+
+    <!--m_footer2 start=====================================================================================-->
+    <div id="m_footer2">
+        <div>
+            <p>© BMW Korea 2023</p>
+        </div>
+        <div>
+            <ul>
+                <li><a>법적고지</a></li>
+                <li><a>컨택트</a></li>
+                <li><a>쿠키정책</a></li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <!--m_footer2 end=====================================================================================-->
+
+
+
+
+
+    <!--m_hide_menu_bar=========================================-->
+
+    <div id="m_hide_menu_bar">
+    </div>
+
+    <!--m_hide_menu_bar=========================================-->
+
+
+
+</body>
+</html>
