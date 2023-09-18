@@ -189,7 +189,31 @@
                     </div>
                 </div>          
             </div>
+
+
+            
             <div id="pjoject_box" class="container">
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <div id="toss_go" class="cover3 bg-dark">
+                            <div class="go">바로가기</div>
+                            <img src="img/toss.png" width="100%" height="100%";>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3 class="badge-primary" width="300px;">TOSS 홈페이지</h3>
+                        <p>Html,Css,Jquery,BootStrap으로 만들었습니다.<br>
+                        학원에서 만든 첫 홈페이지입니다.<br>
+                        아직 반응형 웹 쪽에 많이 부족한 바람에<br>
+                        화면을 줄이면 여러가지 구조가 많이 깨져버립니다.
+                    </div>
+                </div>
+
+
+
                 <div class="row">
                     <div class="col">
                         <div id="bmw_go" class="cover3 bg-dark">
@@ -205,6 +229,7 @@
                         현재 코드를 확인하고 있는 녀석입니다.
                     </div>
                 </div>
+
             </div>
 
 
@@ -277,6 +302,10 @@
             });
 
 
+
+
+            //point
+
             let browserPoint = (event)=>{
                 console.log(`브라우저 좌표 : (${event.pageX}, ${event.pageY})`);
             }
@@ -287,6 +316,11 @@
                 browserPoint(e);
                 clientPoint(e);
             });
+
+
+
+
+            //scroll animation
 
 
             $("#logo").click(function() {
@@ -313,6 +347,13 @@
 
 
             //SUB PAGE GO
+
+            $('#toss_go').click(function(){
+                var openNewWindow = window.open("about:blank");
+                openNewWindow.location.href = "sub/toss/toss.html";
+            });
+
+
             $('#bmw_go').click(function(){
                 var openNewWindow = window.open("about:blank");
                 openNewWindow.location.href = "sub/BMW/BMW.html";
