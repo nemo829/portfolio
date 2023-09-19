@@ -290,15 +290,22 @@
                 $("#java").animate({width : '10%'},1000);
             });
 
-            $('.cover3 img').mouseover(function(){
-                $('.go').animate({opacity : '1'},400);
-                $('.cover3 img').animate({opacity : '0.3'},200);
+
+            
+
+
+            //project_box_cover3_animation
+
+
+            $('.cover3').mouseover(function(){
+                $(this).children('.go').animate({opacity : '1'},200);
+                $(this).children('.cover3 img').animate({opacity : '0.3'},200);
 
             });
 
-            $('.cover3 img').mouseout(function(){
-                $('.go').animate({opacity : '0'},400);
-                $('.cover3 img').animate({opacity : '1'},200);
+            $('.cover3').mouseout(function(){
+                $(this).children('.go').animate({opacity : '0'},200);
+                $(this).children('.cover3 img').animate({opacity : '1'},200);
             });
 
 
